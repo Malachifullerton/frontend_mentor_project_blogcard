@@ -41,7 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: ([blogcard](https://malachifullerton.github.io/frontend_mentor_project_blogcard/))
 
 ## My process
 
@@ -52,35 +52,25 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+1) I learnt how toput height between texts in css. 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+line-height: 1.5
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+NB: for the values of the line-height you can use:
+a) 1.5 or any value with no unit which stands for that value multiplied by the font size of the text
+b) or values like 2px, 3em, 4rem or any other value with a unit
+
+2) I learnt how to give container a shadow using css:
+```css
+box-shadow: 2px 2px 2px 2px;
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 

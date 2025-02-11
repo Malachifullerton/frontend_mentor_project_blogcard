@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: solid black; */
 }
 
 html,
@@ -19,26 +18,26 @@ body {
     font-size: 16px;
     font-family: "Figtree", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-
 }
 
 .container {
     max-width: 384px;
     max-height: 522px;
-    /* border: solid red; */
     background-color:  hsl(0, 0%, 100%);
     border-radius: 20px;
     display: flex; 
     flex-direction: column;
-    
+    border: solid black;
+    box-shadow: 7px 7px 0px 0px black;
+}
+
+figcaption {
+    display: none;
 }
 
 .learning-date {
     margin: 0 24px 0 24px;
-    border: solid red;
-     width: 336px;
+    width: 336px;
     height: 194px; 
 }
 
@@ -52,6 +51,17 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    font-size: 14px; 
+    border: white; 
+ }
+
+ .date {
+    color: black;
+    font-size: 14px;
+ }
+ 
+h1 {
+    display: none;
  }
 
  h2 {
@@ -62,11 +72,10 @@ body {
 
 p {
    color:  hsl(0, 0%, 42%);
-   /* line-height: 12px; */
 }
 
 .long-text {
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .main-image {
@@ -81,7 +90,6 @@ p {
     margin: 24px;
     align-items: center;
     gap: 12px;
-    /* margin-top: 10px; */
 }
 
 .author-image {
@@ -89,3 +97,21 @@ p {
     height: 32px;
 }
 
+.attribution {
+    padding-top: 10px;
+}
+
+a {
+    color: #007bff; /* Default color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; Smooth effect
+  }
+  
+  button:hover {
+    color: #ff4500; /* Change color on hover */
+    text-decoration: underline; /* Optional */
+  }
+  
+  button:focus {
+    outline: 2px solid #ff4500; /* Visible focus ring */
+  }
